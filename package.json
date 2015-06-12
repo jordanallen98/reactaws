@@ -1,0 +1,19 @@
+{
+  "name": "jukebox",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/remotebeta-labs/sprint.jukebox"
+  },
+  "author": "Nick Ferraro <nick.ferraro@hackreactor.com>",
+  "license": "None",
+  "bugs": {
+    "url": "https://github.com/remotebeta-labs/sprint.jukebox/issues"
+  },
+  "homepage": "https://github.com/remotebeta-labs/sprint.jukebox"
+}
