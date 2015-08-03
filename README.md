@@ -85,7 +85,10 @@ restarts the server anytime a file is changed.
 
 ### Basic Requirements
 
-We need an application that allows users to search for, queue up, and play music.
+We need an application that allows users to search for, queue up, and play music. You'll notice that
+these requirements are not step by step and left open to interpretation. That's done on purpose! We
+want to see how granular you decide to make your React components and whether you find ways to
+reuse any of them. Have fun!
 
   - [ ] Design your user interface and user experience (a quick hand sketch is recommended).
   - [ ] The application should utilize Sound Cloud for finding music. 
