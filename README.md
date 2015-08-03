@@ -11,6 +11,7 @@
 1. [Objectives](#objectives)
   1. [Basic Requirements](#basic-requirements)
   1. [Extra Credit](#extra-credit)
+  1. [Nightare Mode](#nightmare-mode)
 1. [Getting Help](#getting-help)
 1. [Contributing](#contributing)
 
@@ -54,36 +55,64 @@ via bower and area already linked from the index.html.
 ### Installing Dependencies
 
 ```bash
+npm install -g bower
+npm install
 bower install
 ```
 
+### Installing Development Dependencies
+
+Jukebox has some nice features that allow developers to work more efficiently.
+To install the development dependencies run:
+
+```bash
+npm install -g nodemon
+```
+
+### Running the Application
+
+Like many node applications, Jukebox can be started with `npm start`. If you
+are doing development on the application, you should instead run `npm run dev`.
+This development command starts the application with nodemon, which automatically
+restarts the server anytime a file is changed.
+
 ## Objectives
+
+  1. Distinguish front-to-back vs back-to-front development.
   1. Understand React's data flow and View layer solution.
   1. Learn about React component's life cycles.
   1. Get a better CSS foundation
 
-### Basic Requirments
-  - [ ] Create a React component that can search through Sound Cloud tracks
-  - [ ] Create a React component that can display a bunch of Tracks
-  - [ ] Create a playlist React component
-  - [ ] Allow the user to add tracks from search to their playlist
-  - [ ] Allow the user to play songs on their playlist
+### Basic Requirements
+
+We need an application that allows users to search for, queue up, and play music.
+
+  - [ ] Design your user interface and user experience (a quick hand sketch is recommended).
+  - [ ] The application should utilize Sound Cloud for finding music. 
+  - [ ] Users should be able to select songs from the search results to add to their current playlist. 
+  - [ ] The application should be able to play the user's playlist.
 
 ### Extra Credit
+
   - [ ] Implement a full playback control panel (seek, next, previous, loop, etc...)
+  - [ ] The application should autoplay the next song when the current song ends.
 
 ### Nightmare Mode:
+
   - [ ] Add CSS animations and transitions to UI components.
-  - [ ] Add audio visualization effects as a React component.
+  - [ ] Add audio visualizations
 
 ## Getting Help
-  - **Halp** at [bookstrap.hackreactor.com/help]
+
+  - **Halp** at [remote-bookstrap.hackreactor.com/help]
 
 ## Contributing
+
 This repository uses [semantic versioning][].
 See CONTRIBUTING.md for contribution guidelines.
 
 ## License
+
 Copyright 2014, Hack Reactor. All rights reserved. Unauthorized distribution of
 any code contained herein is prohibited.
 
