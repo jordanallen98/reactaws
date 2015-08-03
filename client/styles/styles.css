@@ -1,3 +1,4 @@
+/* START SOLUTION */
 .clickable {
   cursor: pointer;
   pointer-events: initial;
@@ -19,7 +20,7 @@
 }
 
 .has-footer {
-  margin-bottom: 160px;
+  margin-bottom: 180px;
 }
 
 .fixed-footer {
@@ -73,3 +74,4 @@
 .playback-controls .playback-data .progress {
   margin-bottom: 0px;
 }
+/* END SOLUTION */
