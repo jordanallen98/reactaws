@@ -13,6 +13,7 @@
   1. [Extra Credit](#extra-credit)
   1. [Nightare Mode](#nightmare-mode)
 1. [Getting Help](#getting-help)
+1. [Extra Resources](#extra-resources)
 1. [Contributing](#contributing)
 
 ## Introduction
@@ -108,8 +109,11 @@ reuse any of them. Have fun!
 ## Getting Help
 
   - React Docs: https://facebook.github.io/react/docs/getting-started.html
-  - Some Best Practices: http://blog.siftscience.com/blog/2015/best-practices-for-building-large-react-applications
   - **Halp** at [remote-bookstrap.hackreactor.com/help]
+
+## Extra Resources
+
+  - Some Best Practices: http://blog.siftscience.com/blog/2015/best-practices-for-building-large-react-applications
   - React's Diffing: http://calendar.perfplanet.com/2013/diff/
   - React/Angular Performance: http://blog.500tech.com/is-reactjs-fast/
   - Discussion on React's License: https://news.ycombinator.com/item?id=8985541
