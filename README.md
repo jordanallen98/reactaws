@@ -107,7 +107,12 @@ reuse any of them. Have fun!
 
 ## Getting Help
 
+  - React Docs: https://facebook.github.io/react/docs/getting-started.html
+  - Some Best Practices: http://blog.siftscience.com/blog/2015/best-practices-for-building-large-react-applications
   - **Halp** at [remote-bookstrap.hackreactor.com/help]
+  - React's Diffing: http://calendar.perfplanet.com/2013/diff/
+  - React/Angular Performance: http://blog.500tech.com/is-reactjs-fast/
+  - Discussion on React's License: https://news.ycombinator.com/item?id=8985541
 
 ## Contributing
 
