@@ -2,7 +2,9 @@
   "name": "jukebox",
   "version": "0.0.0",
   "authors": [
-    "Nick Ferraro <nick.ferraro@hackreactor.com>"
+    "Nick Ferraro <nick.ferraro@hackreactor.com>",
+    "Melinda Bernardo <melindabernrdo@gmail.com>",
+    "Irving Barajas <irvingb232@gmail.com>"
   ],
   "license": "None",
   "ignore": [
