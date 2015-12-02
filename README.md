@@ -57,7 +57,7 @@ via bower and npm.
 
   - Node 0.10.x
   - Bower
-  -Gulp
+  - Gulp
 
 ### Installing Dependencies
 
@@ -76,6 +76,7 @@ To install the development dependencies run:
 
 ```bash
 npm install -g nodemon
+nodemon
 ```
 
 ### Running the Application
