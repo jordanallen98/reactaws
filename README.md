@@ -19,10 +19,17 @@
 ## Introduction
 
 ## What is ReactJS?
+React is a Javascript Library for creating UI components made by Facebook. It is the 'View' in MVC. React allow you to create and render components and its claim to fame is an ultra performant virtual DOM that understands when the real DOM needs to be updated (and when it doesn't!).
 
-> ReactJS is not a full stack MVC solution and it doesn't claim to be. React is the V in MVC, which means as a developer
-you are in charge of finding and/or implementing your own M and C. React's claim to fame is an ultra performant virtual
-DOM that understands when the real DOM needs to be updated (and when it doesn't!).
+## What
+Other components used in the React sprint:
+
+1) JSX (Javascript Syntax Extension) - An XML-like language that allows you to write code and then have it compiled to Javascript before loaded in the browser. In gulpfile.js, we use Reactify to compile our JSX code.
+
+2) Browserify - A libray that uses the CommonJS method of requiring dependencies. It allows you to only require the dependencies needed for each file, rather than having all dependencies available globally.
+
+3) Gulp - a task automation tool that allows you to define custom tasks. The React sprint uses gulp tasks to copy files, compile JSX code to Javascript and automatically update files when changed.
+
 
 ### What are we doing?
 
@@ -31,20 +38,17 @@ To get a solid understanding of what problems React solves (and does not solve),
 you should avoid using Flux until you get to the extra credit section. You can
 use any other utility libraries you'd like (i.e. lodash, bluebird).
 
-Evaluate the web application as a whole, and then break it down into smaller 
-components. Then break those components down, again and again until you feel
-you've created a solid View Component that doesn't try to "do to many things"
-but is also not completely useless.
-
 CSS is your friend, or at least will become friendlier as you master it. Put
-your skills to the test and focus on making the application beautiful AND 
+your skills to the test and focus on making the application beautiful AND
 functional.
+
+#photo
 
 ### What's in the Repo already?
 
-A bare-bones web application that you will flesh out with React components
+A web application that you will flesh out with React components
 to create your very own Jukebox web application. Dependencies can be installed
-via bower and area already linked from the index.html.
+via bower and npm.
 
 ## Environment
 
@@ -52,13 +56,16 @@ via bower and area already linked from the index.html.
 
   - Node 0.10.x
   - Bower
+  -Gulp
 
 ### Installing Dependencies
 
 ```bash
 npm install -g bower
+npm install -global gulp
 npm install
 bower install
+gulp
 ```
 
 ### Installing Development Dependencies
@@ -72,34 +79,30 @@ npm install -g nodemon
 
 ### Running the Application
 
-Like many node applications, Jukebox can be started with `npm start`. If you
-are doing development on the application, you should instead run `npm run dev`.
-This development command starts the application with nodemon, which automatically
+You should run `gulp` and then `nodemon`. This development command starts the application with nodemon, which automatically
 restarts the server anytime a file is changed.
 
 ## Objectives
 
-  1. Distinguish front-to-back vs back-to-front development.
-  1. Understand React's data flow and View layer solution.
+  1. Understand React's data flow (state and props) and View layer solution.
   1. Learn about React component's life cycles.
   1. Get a better CSS foundation
 
 ### Basic Requirements
 
-We need an application that allows users to search for, queue up, and play music. You'll notice that
-these requirements are not step by step and left open to interpretation. That's done on purpose! We
-want to see how granular you decide to make your React components and whether you find ways to
-reuse any of them. Have fun!
+We need an application that allows users to search for, queue up, and play music.
 
-  - [ ] Design your user interface and user experience (a quick hand sketch is recommended).
-  - [ ] The application should utilize Sound Cloud for finding music. 
-  - [ ] Users should be able to select songs from the search results to add to their current playlist. 
-  - [ ] The application should be able to play the user's playlist.
+  - [ ] Sketch out what your application will look like; decide what should go in each component.
+  - [ ] Utilize the Sound Cloud API for finding music.
+  - [ ] Users should be able to select songs from the search results to add to their current playlist.
+  - [ ] Add functionality to play the user's playlist.
 
 ### Extra Credit
 
   - [ ] Implement a full playback control panel (seek, next, previous, loop, etc...)
   - [ ] The application should autoplay the next song when the current song ends.
+  - [ ] Refactor the code to ES6 for classes, import/exports, etc.
+  - [ ] Refactor the code to use Flux Library for data flow
 
 ### Nightmare Mode:
 
@@ -109,7 +112,6 @@ reuse any of them. Have fun!
 ## Getting Help
 
   - React Docs: https://facebook.github.io/react/docs/getting-started.html
-  - **Halp** at [remote-bookstrap.hackreactor.com/help]
 
 ## Extra Resources
 
@@ -131,5 +133,5 @@ any code contained herein is prohibited.
 [node-inspector]: https://github.com/node-inspector/node-inspector
 [semantic versioning]: http://semver.org/spec/v2.0.0.html
 [CONTRIBUTING.md]: CONTRIBUTING.md
-[remote-bookstrap.hackreactor.com/help]: http://remote-bookstrap.hackreactor.com/help
+[bookstrap.makersquare.com]: Help Desk
 
