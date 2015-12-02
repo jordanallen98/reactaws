@@ -1,3 +1,9 @@
+var AudioVisualizer = require('./audioVisualizer.solution.js');
+var SearchSoundCloud = require('./searchSoundCloud.solution.js');
+var TrackSelector = require('./trackSelector.solution.js');
+var PlaybackControls = require('./playbackControls.solution.js');
+var Playlist = require('./playlist.solution.js');
+
 // TODO: Handle async stream loading vs play/pause/stop state
 // TODO: Implement the state pattern
 var JukeboxApp = React.createClass({
@@ -179,3 +185,6 @@ var JukeboxApp = React.createClass({
     );
   }
 });
+
+
+module.exports = JukeboxApp;

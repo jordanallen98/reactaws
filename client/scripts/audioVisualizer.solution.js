@@ -5,3 +5,5 @@ var AudioVisualizer = React.createClass({
     );
   }
 });
+
+module.exports = AudioVisualizer;

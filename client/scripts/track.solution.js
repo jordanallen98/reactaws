@@ -17,3 +17,5 @@ var Track = React.createClass({
     );
   }
 });
+
+module.exports = Track;

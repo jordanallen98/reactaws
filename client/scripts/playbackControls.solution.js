@@ -36,3 +36,5 @@ var PlaybackControls = React.createClass({
     );
   }
 });
+
+module.exports = PlaybackControls;

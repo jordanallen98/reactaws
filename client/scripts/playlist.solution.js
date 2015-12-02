@@ -1,3 +1,5 @@
+var Track = require('./track.solution.js');
+
 var Playlist = React.createClass({
   propTypes: {
     tracks: React.PropTypes.array.isRequired,
@@ -38,3 +40,5 @@ var Playlist = React.createClass({
     );
   }
 });
+
+module.exports = Playlist;

@@ -64,3 +64,5 @@ var SearchSoundCloud = React.createClass({
     );
   }
 });
+
+module.exports = SearchSoundCloud;
