@@ -42,7 +42,8 @@ CSS is your friend, or at least will become friendlier as you master it. Put
 your skills to the test and focus on making the application beautiful AND
 functional.
 
-#photo
+# Example
+![alt text](https://github.com/IrvingAxelB/MKS26-jukebox/blob/solutionRefactor/example.gif)
 
 ### What's in the Repo already?
 
