@@ -1,6 +1,6 @@
 var Track = require('./track.solution.js');
 
-var TrackSelector = React.createClass({
+var TrackResults = React.createClass({
   propTypes: {
     tracks: React.PropTypes.array.isRequired,
     onTrackSelected: React.PropTypes.func
@@ -42,4 +42,4 @@ var TrackSelector = React.createClass({
   }
 });
 
-module.exports = TrackSelector;
+module.exports = TrackResults;
