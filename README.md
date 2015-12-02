@@ -5,6 +5,7 @@
 ## Table of Contents
 
 1. [Introduction](#introduction)
+1. [Example gif](#example) 
 1. [Environment](#environment)
   1. [Requirements](#requirements)
   1. [Installing Dependencies](#installing-dependencies)
