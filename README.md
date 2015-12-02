@@ -31,6 +31,7 @@ Other components used in the React sprint:
 
 3) Gulp - a task automation tool that allows you to define custom tasks. The React sprint uses gulp tasks to copy files, compile JSX code to Javascript and automatically update files when changed.
 
+4) Soundcloud Api - [docs here]: https://developers.soundcloud.com/docs/api/guide
 
 ### What are we doing?
 
