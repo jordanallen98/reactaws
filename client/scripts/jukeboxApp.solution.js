@@ -1,7 +1,6 @@
-var AudioVisualizer = require('./audioVisualizer.solution.js');
 var SearchSoundCloud = require('./searchSoundCloud.solution.js');
-var TrackSelector = require('./trackSelector.solution.js');
-var PlaybackControls = require('./playbackControls.solution.js');
+var TrackResults = require('./trackSelector.solution.js');
+var AudioPlayer = require('./playbackControls.solution.js');
 var Playlist = require('./playlist.solution.js');
 
 // TODO: Handle async stream loading vs play/pause/stop state
@@ -151,7 +150,7 @@ var JukeboxApp = React.createClass({
 
     if( currentTrack != null ) {
       currentStream = this.state.currentTrack.stream;
-      playbackControls = <PlaybackControls trackName={ currentTrack.title }
+      playbackControls = <AudioPlayer trackName={ currentTrack.title }
                                            isPlaying={ this.state.jukeboxPlaying }
                                            duration={ currentTrack.duration }
                                            position={ currentStream && currentStream.getCurrentPosition() || 0 }
@@ -169,11 +168,11 @@ var JukeboxApp = React.createClass({
 
         <article>
           <div className="container text-center">
-            <AudioVisualizer />
+            <h7>AudioVisualizer</h7>
 
             <SearchSoundCloud onSearchResults={ this.handleSearchResults } />
 
-            <TrackSelector tracks={ this.state.queriedTracks } onTrackSelected={ this.addToPlaylist } />
+            <TrackResults tracks={ this.state.queriedTracks } onTrackSelected={ this.addToPlaylist } />
           </div>
         </article>
 
