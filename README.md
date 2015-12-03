@@ -5,6 +5,7 @@
 ## Table of Contents
 
 1. [Introduction](#introduction)
+1. [Example gif](#example) 
 1. [Environment](#environment)
   1. [Requirements](#requirements)
   1. [Installing Dependencies](#installing-dependencies)
@@ -30,6 +31,7 @@ Other components used in the React sprint:
 
 3) Gulp - a task automation tool that allows you to define custom tasks. The React sprint uses gulp tasks to copy files, compile JSX code to Javascript and automatically update files when changed.
 
+4) Soundcloud Api - [docs here]: https://developers.soundcloud.com/docs/api/guide
 
 ### What are we doing?
 
@@ -42,7 +44,8 @@ CSS is your friend, or at least will become friendlier as you master it. Put
 your skills to the test and focus on making the application beautiful AND
 functional.
 
-#photo
+# Example
+![alt text](https://github.com/IrvingAxelB/MKS26-jukebox/blob/solutionRefactor/example.gif)
 
 ### What's in the Repo already?
 
@@ -56,7 +59,7 @@ via bower and npm.
 
   - Node 0.10.x
   - Bower
-  -Gulp
+  - Gulp
 
 ### Installing Dependencies
 
@@ -75,6 +78,7 @@ To install the development dependencies run:
 
 ```bash
 npm install -g nodemon
+nodemon
 ```
 
 ### Running the Application
