@@ -1,3 +1,5 @@
+var React = require('react');
+
 var TrackShape = {
   title: React.PropTypes.string.isRequired,
   artwork_url: React.PropTypes.string

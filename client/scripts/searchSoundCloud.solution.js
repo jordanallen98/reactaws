@@ -1,3 +1,4 @@
+var React = require('react');
 var SearchSoundCloud = React.createClass({
   propTypes: {
     onSearchResults: React.PropTypes.func

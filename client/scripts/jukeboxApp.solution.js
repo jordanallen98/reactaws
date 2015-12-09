@@ -1,3 +1,4 @@
+var React = require('react');
 var SearchSoundCloud = require('./searchSoundCloud.solution.js');
 var TrackResults = require('./trackResults.solution.js');
 var AudioPlayer = require('./audioPlayer.solution.js');

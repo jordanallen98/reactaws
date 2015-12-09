@@ -1,3 +1,5 @@
+var React = require('react');
+
 var AudioPlayer = React.createClass({
   propTypes: {
     trackName: React.PropTypes.string,

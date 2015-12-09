@@ -1,3 +1,4 @@
+var React = require('react');
 var Track = require('./track.solution.js');
 
 var TrackResults = React.createClass({
