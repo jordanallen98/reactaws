@@ -67,7 +67,6 @@ via bower and npm.
 npm install -g bower
 npm install -global gulp
 npm install
-bower install
 gulp
 ```
 
