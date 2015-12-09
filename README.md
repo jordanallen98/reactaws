@@ -5,7 +5,7 @@
 ## Table of Contents
 
 1. [Introduction](#introduction)
-1. [Example gif](#example) 
+1. [Example gif](#example)
 1. [Environment](#environment)
   1. [Requirements](#requirements)
   1. [Installing Dependencies](#installing-dependencies)
@@ -25,13 +25,11 @@ React is a Javascript Library for creating UI components made by Facebook. It is
 ## What
 Other components used in the React sprint:
 
-1) JSX (Javascript Syntax Extension) - An XML-like language that allows you to write code and then have it compiled to Javascript before loaded in the browser. In gulpfile.js, we use Reactify to compile our JSX code.
+1) JSX (Javascript Syntax Extension) - An XML-like language that allows you to write code and then have it compiled to Javascript before loaded in the browser. In server.js, we use Reactify to compile our JSX code.
 
 2) Browserify - A libray that uses the CommonJS method of requiring dependencies. It allows you to only require the dependencies needed for each file, rather than having all dependencies available globally.
 
-3) Gulp - a task automation tool that allows you to define custom tasks. The React sprint uses gulp tasks to copy files, compile JSX code to Javascript and automatically update files when changed.
-
-4) Soundcloud Api - [docs here]: https://developers.soundcloud.com/docs/api/guide
+3) Soundcloud Api - [docs here]: https://developers.soundcloud.com/docs/api/guide
 
 ### What are we doing?
 
@@ -58,32 +56,16 @@ via bower and npm.
 ### Requirements
 
   - Node 0.10.x
-  - Bower
-  - Gulp
 
 ### Installing Dependencies
 
-```bash
-npm install -g bower
-npm install -global gulp
 npm install
-gulp
-```
 
-### Installing Development Dependencies
-
-Jukebox has some nice features that allow developers to work more efficiently.
-To install the development dependencies run:
-
-```bash
-npm install -g nodemon
-nodemon
-```
+npm start
 
 ### Running the Application
 
-You should run `gulp` and then `nodemon`. This development command starts the application with nodemon, which automatically
-restarts the server anytime a file is changed.
+You should run `npm run dev`. This will run the `dev` script from `package.json`; it starts the application with nodemon, a program that automatically restarts the server anytime a server file is changed.
 
 ## Objectives
 
