@@ -9,9 +9,10 @@ var Track = React.createClass({
   },
 
   render: function() {
+    var artwork = this.props.track.artwork_url || '../assets/default.png';
     return (
       <div className="track">
-        <img src={ this.props.track.artwork_url } className="img-thumbnail artwork" />
+        <img src={ artwork } className="img-thumbnail artwork" />
         <div className="title">{ this.props.track.title }</div>
       </div>
     );
