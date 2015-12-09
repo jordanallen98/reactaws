@@ -1,6 +1,6 @@
 var SearchSoundCloud = require('./searchSoundCloud.solution.js');
-var TrackResults = require('./trackSelector.solution.js');
-var AudioPlayer = require('./playbackControls.solution.js');
+var TrackResults = require('./trackResults.solution.js');
+var AudioPlayer = require('./audioPlayer.solution.js');
 var Playlist = require('./playlist.solution.js');
 
 // TODO: Handle async stream loading vs play/pause/stop state
