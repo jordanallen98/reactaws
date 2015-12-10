@@ -1,3 +1,6 @@
+var React = require('react');
+var Track = require('./track.solution.js');
+
 var Playlist = React.createClass({
   propTypes: {
     tracks: React.PropTypes.array.isRequired,
@@ -12,24 +15,21 @@ var Playlist = React.createClass({
   },
 
   render: function() {
-    var trackComponents = [];
-    var i = 0;
-    var len = this.props.tracks.length;
     var trackClasses;
+    var THIS = this;
 
-    for( ; i < len; i++ ) {
+    var trackComponents = _.map(this.props.tracks, function(track, i) {
       trackClasses = ['clickable'];
-
-      if( this.props.currentTrack && this.props.currentTrack.id === this.props.tracks[i].id ) {
+      if (THIS.props.currentTrack && THIS.props.currentTrack.id === track.id ) {
         trackClasses.push('selected');
       }
 
-      trackComponents.push(
-        <div className={ trackClasses.join(' ') } key={ this.props.tracks[i].id } onClick={ this.playTrack.bind(this, this.props.tracks[i]) }>
-          <Track track={ this.props.tracks[i] } />
+      return (
+        <div className={ trackClasses.join(' ') } key={ track.id } onClick={ THIS.playTrack.bind(THIS, track)}>
+          <Track track={ track } />
         </div>
       )
-    }
+    });
 
     return (
       <div className="playlist">
@@ -38,3 +38,5 @@ var Playlist = React.createClass({
     );
   }
 });
+
+module.exports = Playlist;

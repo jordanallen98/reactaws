@@ -1,4 +1,6 @@
-var PlaybackControls = React.createClass({
+var React = require('react');
+
+var AudioPlayer = React.createClass({
   propTypes: {
     trackName: React.PropTypes.string,
     isPlaying: React.PropTypes.bool,
@@ -36,3 +38,5 @@ var PlaybackControls = React.createClass({
     );
   }
 });
+
+module.exports = AudioPlayer;
