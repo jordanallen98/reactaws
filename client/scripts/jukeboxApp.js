@@ -1,8 +1,8 @@
 var React = require('react');
-var SearchSoundCloud = require('./searchSoundCloud.solution.js');
-var TrackResults = require('./trackResults.solution.js');
-var AudioPlayer = require('./audioPlayer.solution.js');
-var Playlist = require('./playlist.solution.js');
+var SearchSoundCloud = require('./searchSoundCloud.js');
+var TrackResults = require('./trackResults.js');
+var AudioPlayer = require('./audioPlayer.js');
+var Playlist = require('./playlist.js');
 
 // TODO: Handle async stream loading vs play/pause/stop state
 // TODO: Implement the state pattern

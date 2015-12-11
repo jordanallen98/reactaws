@@ -1,5 +1,5 @@
 var React = require('react');
-var Track = require('./track.solution.js');
+var Track = require('./track.js');
 
 var Playlist = React.createClass({
   propTypes: {
