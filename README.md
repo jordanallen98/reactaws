@@ -12,7 +12,7 @@
 1. [Objectives](#objectives)
   1. [Basic Requirements](#basic-requirements)
   1. [Extra Credit](#extra-credit)
-  1. [Nightare Mode](#nightmare-mode)
+  1. [Nightmare Mode](#nightmare-mode)
 1. [Getting Help](#getting-help)
 1. [Extra Resources](#extra-resources)
 1. [Contributing](#contributing)
@@ -27,9 +27,9 @@ Other components used in the React sprint:
 
 1) JSX (Javascript Syntax Extension) - An XML-like language that allows you to write code and then have it compiled to Javascript before loaded in the browser. In server.js, we use Reactify to compile our JSX code.
 
-2) Browserify - A libray that uses the CommonJS method of requiring dependencies. It allows you to only require the dependencies needed for each file, rather than having all dependencies available globally.
+2) Browserify - A library that uses the CommonJS method of requiring dependencies. It allows you to only require the dependencies needed for each file, rather than having all dependencies available globally.
 
-3) Soundcloud Api - [docs here]: https://developers.soundcloud.com/docs/api/guide
+3) Soundcloud Api - [docs here]: https://developers.soundcloud.com/docs/api/guide  Note: the soundcloud API is linked to in the index.html file giving you global access to the api through the SC object in the app. 
 
 ### What are we doing?
 
@@ -43,13 +43,13 @@ your skills to the test and focus on making the application beautiful AND
 functional.
 
 # Example
-![alt text](https://github.com/IrvingAxelB/MKS26-jukebox/blob/solutionRefactor/example.gif)
+![Alt text](example.gif?raw=true "Example gif of Application")
 
 ### What's in the Repo already?
 
 A web application that you will flesh out with React components
 to create your very own Jukebox web application. Dependencies can be installed
-via bower and npm.
+via npm.
 
 ## Environment
 
@@ -61,37 +61,35 @@ via bower and npm.
 
 npm install
 
-npm start
-
 ### Running the Application
 
 You should run `npm run dev`. This will run the `dev` script from `package.json`; it starts the application with nodemon, a program that automatically restarts the server anytime a server file is changed.
 
 ## Objectives
 
-  1. Understand React's data flow (state and props) and View layer solution.
-  1. Learn about React component's life cycles.
+  1. Understand React's data flow (state and props) and View layer solution
+  1. Learn about React component's life cycles
   1. Get a better CSS foundation
 
 ### Basic Requirements
 
 We need an application that allows users to search for, queue up, and play music.
 
-  - [ ] Sketch out what your application will look like; decide what should go in each component.
-  - [ ] Utilize the Sound Cloud API for finding music.
-  - [ ] Users should be able to select songs from the search results to add to their current playlist.
-  - [ ] Add functionality to play the user's playlist.
+  - [ ] Sketch out what your application will look like; decide what should go in each component
+  - [ ] Utilize the Sound Cloud API for finding music
+  - [ ] Users should be able to select songs from the search results to add to their current playlist
+  - [ ] Add functionality to play the user's playlist
 
 ### Extra Credit
 
   - [ ] Implement a full playback control panel (seek, next, previous, loop, etc...)
-  - [ ] The application should autoplay the next song when the current song ends.
+  - [ ] The application should autoplay the next song when the current song ends
   - [ ] Refactor the code to ES6 for classes, import/exports, etc.
   - [ ] Refactor the code to use Flux Library for data flow
 
 ### Nightmare Mode:
 
-  - [ ] Add CSS animations and transitions to UI components.
+  - [ ] Add CSS animations and transitions to UI components
   - [ ] Add audio visualizations
 
 ## Getting Help
